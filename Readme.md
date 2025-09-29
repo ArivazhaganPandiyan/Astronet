@@ -69,15 +69,6 @@ AstroNet is a React-based frontend application that consumes data from NASA's pu
 3. Use the date picker to view historical data.
 4. (Optional) Sign up and log in to access personalized features.
 
-## Testing
-
-To run the tests, use the following command:
-
-```bash
-npm test
-```
-
-This project includes both unit and integration tests using Jest and React Testing Library. Tests cover critical functionalities and components of the application to ensure robustness and reliability.
 
 ## Deployment
 
@@ -87,12 +78,9 @@ This project includes both unit and integration tests using Jest and React Testi
    npm run build
    ```
 
-2. Deploy the `dist` folder to your chosen hosting platform. For example, using Vercel:
+2. Deploy the `dist` folder to your chosen hosting platform. For example, using Netlify or Vercel:
 
-   ```bash
-   npm install -g vercel
-   vercel
-   ```
+   
 
 3. Follow the prompts to complete the deployment.
 
@@ -119,7 +107,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 3. Commit your changes (`git commit -am 'Add new feature'`)
 4. Push to the branch (`git push origin feature-branch`)
 5. Create a new Pull Request
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
